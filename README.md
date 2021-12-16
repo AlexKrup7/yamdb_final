@@ -34,34 +34,19 @@
 #### На одно произведение пользователь может оставить только один отзыв
 #### Благодаря оценкам пользователей формируется рейтинг
 ## Установка:
-
-* Установка docker:
-https://www.docker.com/products/docker-desktop
-
-* Создать файл .env с переменными окружения:
-```
-DB_ENGINE=django.db.backends.postgresql
-DB_NAME=postgres # Имя базы данных
-POSTGRES_USER=postgres # Администратор базы данных
-POSTGRES_PASSWORD=postgres # Пароль администратора
-DB_HOST=db
-DB_PORT=5432
-```
-*  Сборка и запуск контейнера
-```docker-compose up -d --build```
-   
-* Сбор статики
-```docker-compose exec web python manage.py collectstatic --noinput```
-  
-* Создание суперпользователя
-```docker-compose exec web python manage.py createsuperuser```
-#### Адрес сервера
-
-http://127.0.0.1:8000/
-
-#### Документация
-
-http://127.0.0.1:8000/redoc/
+* #### Клонировать репризиторий:
+  ```git clone https://github.com/AlexKrup7/yamdb_final.git```
+* #### Добавьте нужные Actions secrets
+* #### Установите venv:
+  ```python -m venv venv```
+* #### Зайдите на свой сервер
+* #### Остановите службу nginx:
+  ```sudo systemd stop nginx```
+* #### Установите docker:
+  ```sudo apt install docker.io```
+* #### Установите docker-compose:
+  https://docs.docker.com/compose/install/
+* #### Скопируйте файлы docker-compose.yaml и nginx/default.conf из вашего проекта на сервер в home/<ваш_username>/docker-compose.yaml и home/<ваш_username>/nginx/default.conf
 
 ### Автор:
 
