@@ -48,14 +48,8 @@
   https://docs.docker.com/compose/install/
 * #### Скопируйте файлы docker-compose.yaml и nginx/default.conf из вашего проекта на сервер в home/<ваш_username>/docker-compose.yaml и home/<ваш_username>/nginx/default.conf
 
-#### Адрес сервера
-
-http://127.0.0.1:8000/
-
-#### Документация
-
-http://127.0.0.1:8000/redoc/
-
+#### Проект доступен по адресу:
+  51.250.20.100
 ### Автор:
 
  Алексей Крупин
