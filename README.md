@@ -1,4 +1,5 @@
 # Проект api_YaMDb
+
 ## Описание
 
 #### Устанавливается из контейнера Docker
@@ -48,7 +49,7 @@
 * #### Скопируйте файлы docker-compose.yaml и nginx/default.conf из вашего проекта на сервер в home/<ваш_username>/docker-compose.yaml и home/<ваш_username>/nginx/default.conf
 
 #### Проект доступен по адресу:
-  51.250.20.100
+  51.250.20.100/admin
 ### Автор:
 
  Алексей Крупин
